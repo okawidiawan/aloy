@@ -1,0 +1,78 @@
+<section id="gift-section">
+  <div class="container">
+    <div class="row">
+      <h2 class="text-center my-5">Gift</h2>
+      <div class="col-12 col-sm-6 mb-5">
+        <img
+          src="./img/qrCodeOvo.png"
+          class="img-fluid d-block mx-auto mb-5 gift-img"
+          alt=""
+        />
+        <p class="text-center">
+          Sebelumnya, kami ucapkan terima kasih atas perhatian dan bentuk tanda
+          cinta Bapak/Ibu/Saudara/i untuk kami
+        </p>
+      </div>
+      <div class="col-12 col-sm-6 mb-5">
+        <form action="">
+          <!-- Form Nama Start -->
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nama"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <!-- Form Nama End -->
+
+          <!-- Form Email Start -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" />
+          </div>
+          <!-- Form Email End -->
+
+          <!-- Form Pesan Start -->
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="3"></textarea>
+          </div>
+          <!-- Form Pesan End -->
+
+          <!-- Form Radio Hadir Start -->
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="radioAbsen"
+              id="radioHadir"
+            />
+            <label class="form-check-label" for="radioHadir">
+              Ya, Akan Hadir
+            </label>
+          </div>
+          <!-- Form Radio Hadir End -->
+
+          <!-- Form Radio Tidak Start -->
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="radioAbsen"
+              id="radioTidak"
+              checked
+            />
+            <label class="form-check-label" for="radioTidak">
+              Tidak Bisa Hadir
+            </label>
+          </div>
+          <!-- Form Radio Tidak End -->
+
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
