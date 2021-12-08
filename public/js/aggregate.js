@@ -1,2 +1,2 @@
 export { countDown } from "./countdown.js";
-export { btnShow } from "./navigation.js";
+export { activeLink } from "./navigation.js";
