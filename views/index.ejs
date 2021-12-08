@@ -23,13 +23,15 @@
     <title><%= title %></title>
   </head>
   <body>
-    <%- include('./includes/hero.ejs') %> <%- include('./includes/about.ejs') %>
-    <%- include('./includes/schedule.ejs') %> <%-
-    include('./includes/story.ejs') %> <%- include('./includes/gift.ejs') %> <%-
-    include('./includes/footer.ejs') %>
+    <%- include('./includes/header.ejs') %> <%- include('./includes/hero.ejs')%>
+    <%- include('./includes/about.ejs') %> <%-
+    include('./includes/schedule.ejs') %> <%- include('./includes/story.ejs') %>
+    <%- include('./includes/gift.ejs') %> <%- include('./includes/footer.ejs')
+    %>
     <script type="module">
-      import { countDown } from "./js/aggregate.js";
+      import { countDown, btnShow } from "./js/aggregate.js";
       countDown();
+      btnShow;
     </script>
   </body>
 </html>
